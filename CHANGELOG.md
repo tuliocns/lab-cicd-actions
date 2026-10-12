@@ -1,3 +1,6 @@
+### VERSÃO 5
+Tudo Ok! Sem pontuações.
+
 ### PUBLICADA NOVA VERSÃO 4 EM 12/10
 1- [Prioridade Alta] Cor de fundo; <b>[X]</b></br>
 2- [Prioridade Média] Inserir melhorias no texto; <b>[X]</b></br>
