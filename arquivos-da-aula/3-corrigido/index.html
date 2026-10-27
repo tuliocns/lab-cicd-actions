@@ -18,7 +18,7 @@
       background: #fff;
       border-radius: 20px;
       padding: 2.5rem;
-      max-width: 520px;
+      max-width: 760px;
       width: 100%;
       box-shadow: 0 20px 50px rgba(0, 0, 0, .25);
       text-align: center;
@@ -26,6 +26,64 @@
     }
     .emoji { font-size: 4rem; }
     h1 { margin: .5rem 0; color: #1e9e5a; }
+    .cotacoes {
+      margin: 2rem 0;
+      padding: 1.75rem;
+      border-radius: 16px;
+      background: #123b2b;
+      color: #fff;
+      text-align: left;
+    }
+    .cotacoes-topo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .cotacoes h2 { margin: 0; font-size: 1.35rem; }
+    .data-cotacao {
+      padding: .4rem .7rem;
+      border-radius: 999px;
+      background: #d7f4df;
+      color: #123b2b;
+      font-size: .85rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .grade-cotacoes {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+    .cotacao {
+      padding: 1.25rem;
+      border-radius: 12px;
+      background: #fff;
+      color: #1d1d1f;
+    }
+    .cotacao-label { color: #5b625e; font-size: .9rem; }
+    .cotacao-valor {
+      display: block;
+      margin-top: .35rem;
+      color: #176b42;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      font-weight: 750;
+      line-height: 1.1;
+      font-variant-numeric: tabular-nums;
+    }
+    .cotacoes-fonte {
+      margin: 1rem 0 0;
+      color: #d8e7de;
+      font-size: .8rem;
+      line-height: 1.5;
+    }
+    @media (max-width: 520px) {
+      .cartao { padding: 1.5rem; }
+      .cotacoes { padding: 1.25rem; }
+      .cotacoes-topo { align-items: flex-start; flex-direction: column; }
+      .grade-cotacoes { grid-template-columns: 1fr; }
+    }
     .versao {
       margin-top: 1.5rem;
       padding: 1rem;
@@ -42,6 +100,23 @@
   <main class="cartao">
     <div class="emoji">✅</div>
     <h1>Versão 3 — corrigida</h1>
+    <section class="cotacoes" aria-labelledby="titulo-cotacoes">
+      <div class="cotacoes-topo">
+        <h2 id="titulo-cotacoes">Câmbio do dia</h2>
+        <span class="data-cotacao">26/10/2026</span>
+      </div>
+      <div class="grade-cotacoes">
+        <div class="cotacao">
+          <span class="cotacao-label">Dólar americano · USD/BRL</span>
+          <strong class="cotacao-valor">R$ 5,5884</strong>
+        </div>
+        <div class="cotacao">
+          <span class="cotacao-label">Euro · EUR/BRL</span>
+          <strong class="cotacao-valor">R$ 6,2523</strong>
+        </div>
+      </div>
+      <p class="cotacoes-fonte">Referência histórica baseada nas taxas do BCE. Valor informativo; cotações comerciais podem incluir tarifas e spread.</p>
+    </section>
     <p>O erro foi corrigido e o robô publicou de novo.</p>
 
     <div class="versao">
