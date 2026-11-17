@@ -3,7 +3,7 @@
 2- Aviso: mensagem no próprio site; [X]</b></br>
 3- Dados: o código fica no repositório; [X]</b></br>
 4- Substituto: nenhum.</b></br>
-> Tudo Ok! Sem pontuações.
+Tudo Ok! Sem pontuações.
 
 ### VERSÃO 5
 Tudo Ok! Sem pontuações.
