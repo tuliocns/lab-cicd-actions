@@ -1,8 +1,9 @@
-## Versão Final — 01/12/2026 (fim de vida)
-- Motivo: fim da aplicação;</b></br>
-- Aviso: mensagem no próprio site;</b></br>
-- Dados: o código fica no repositório;</b></br>
+### Versão Final — 01/12/2026 (fim de vida)
+- Motivo: fim da aplicação; [X]</b></br>
+- Aviso: mensagem no próprio site; [X]</b></br>
+- Dados: o código fica no repositório; [X]</b></br>
 - Substituto: nenhum.</b></br>
+>>> Tudo Ok! Sem pontuações.
 
 ### VERSÃO 5
 Tudo Ok! Sem pontuações.
